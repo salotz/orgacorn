@@ -8,32 +8,30 @@ pip
 wheel
 twine
 pip-tools
-pipdeptree
 
 # interactive and debugging
 ipython
 pdbpp
-remote-pdb
 
 # utilities
-# bumpversion
 versioneer
 
 
 # task running
 invoke
 fabric
+jubeo
 
 # docs
-sphinx
-guzzle_sphinx_theme
-sphinxcontrib-napoleon
-nbsphinx
-notebook
+# sphinx
+# guzzle_sphinx_theme
+# sphinxcontrib-napoleon
+# nbsphinx
+# notebook
 
-# website
-nikola[all]
-ghp-import
+# # website
+# nikola[all]
+# ghp-import
 
 # testing
 pytest

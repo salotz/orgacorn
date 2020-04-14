@@ -19,7 +19,9 @@ import itertools as it
 import versioneer
 
 # the basic needed requirements for a package
-base_requirements = []
+base_requirements = [
+    'lark-parser',
+]
 
 # extras requirements list
 
