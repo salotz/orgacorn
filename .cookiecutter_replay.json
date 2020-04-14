@@ -1,0 +1,16 @@
+{
+    "_extensions" : ["jinja2_time.TimeExtension"],
+    "project_name" : "Orgacorn",
+    "project_slug" : "orgacorn",
+    "project_description" : "Parsing and transformation of org-mode files in python",
+    "initial_version" : "0.0.0a0.dev0",
+    "copyright" : "BY-NC",
+    "license" : "MIT",
+    "owner_name" : "Samuel D. Lotz",
+    "owner_email" : "samuel.lotz@salotz.info",
+    "owner_nickname" : "salotz",
+    "url" : "https://github.com/salotz/orgacorn",
+    "dev_url" : "https://github.com/salotz/orgacorn",
+    "doc_url" : "https://salotz.github.io/orgacorn",
+    "sdist_url" : "https://github.com/salotz/orgacorn/releases/download/"
+}

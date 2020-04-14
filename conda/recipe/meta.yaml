@@ -1,0 +1,40 @@
+package:
+  name: Orgacorn
+  version: 0.0.0a0.dev0
+
+source:
+  fn: orgacorn-0.0.0a0.dev0.tar.gz
+  url: https://github.com/salotz/orgacorn/releases/download//{{ version }}/{{ name }}-{{ version }}.tar.gz
+  # TODO: way to specify a hole or 
+  sha256:
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+  entry_points:
+    - orgacorn = orgacorn.cli:cli
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - wheel
+
+  host:
+    - python
+    
+  run:
+    - python
+    
+
+about:
+  home: https://github.com/salotz/orgacorn
+  license: MIT
+  license_file: LICENSE
+  summary: "Parsing and transformation of org-mode files in python"
+  doc_url: https://salotz.github.io/orgacorn
+  dev_url: https://github.com/salotz/orgacorn
+
+extra:
+  recipe-maintainers:
+    - salotz

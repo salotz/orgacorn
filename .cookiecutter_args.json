@@ -1,0 +1,16 @@
+{
+    "_extensions" : ["jinja2_time.TimeExtension"],
+    "cookiecutter.project_name" : "Orgacorn",
+    "cookiecutter.project_slug" : "orgacorn",
+    "cookiecutter.project_description" : "Parsing and transformation of org-mode files in python",
+    "cookiecutter.initial_version" : "0.0.0a0.dev0",
+    "cookiecutter.copyright" : "BY-NC",
+    "cookiecutter.license" : "MIT",
+    "cookiecutter.owner_name" : "Samuel D. Lotz",
+    "cookiecutter.owner_email" : "samuel.lotz@salotz.info",
+    "cookiecutter.owner_nickname" : "salotz",
+    "cookiecutter.url" : "https://github.com/salotz/orgacorn",
+    "cookiecutter.dev_url" : "https://github.com/salotz/orgacorn",
+    "cookiecutter.doc_url" : "https://salotz.github.io/orgacorn",
+    "cookiecutter.sdist_url" : "https://github.com/salotz/orgacorn/releases/download/"
+}
