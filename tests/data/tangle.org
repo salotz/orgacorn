@@ -1,0 +1,14 @@
+* Code file example
+
+Here is a bash block:
+
+#+begin_src bash :tangle ex0.bash
+echo "hello"
+#+end_src
+
+Here is a python block
+
+#+NAME: python-block
+#+begin_src python :tangle ex0.py
+print("Hello")
+#+end_src
